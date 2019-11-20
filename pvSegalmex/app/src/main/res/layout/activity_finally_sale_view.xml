@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrador.pvsegalmex.view.MyDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerCart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.PointOfSaleView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dip_30"
+                android:orientation="horizontal"
+                android:padding="@dimen/dip_10"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/tvTotalSalesView"
+                    android:layout_width="@dimen/dip_100"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/dip_20"
+                    android:gravity="center"
+                    android:fontFamily="@font/segoeui"
+                    android:text="@string/tvComplete" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_200"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dip_50"
+                android:orientation="horizontal"
+                android:padding="@dimen/dip_10"
+                android:weightSum="100">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="@dimen/dip_200"
+                    android:layout_height="@dimen/dip_200"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="check.json"
+                    app:lottie_imageAssetsFolder="assets"
+                    app:lottie_loop="false" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_QuickCash"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_100"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/viewEdtDiference"
+                android:layout_marginBottom="@dimen/dip_10"
+                app:cardCornerRadius="@dimen/dip_7">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="40"
+    android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btnCompleteSale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white"
+                    android:drawableBottom="@drawable/shopping" />
+</LinearLayout>
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_weight="40"
+           android:layout_marginLeft="@dimen/dip_10"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+       <android.support.v7.widget.AppCompatButton
+           android:id="@+id/btnPrint"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:background="@color/white"
+           android:drawableBottom="@drawable/preview" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_weight="40"
+           android:layout_marginLeft="@dimen/dip_10"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <android.support.v7.widget.AppCompatButton
+               android:id="@+id/btnPrintPDF"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:background="@color/white"
+               android:drawableBottom="@drawable/print" />
+       </LinearLayout>
+   </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/dip_250"
+        android:layout_height="match_parent"
+        android:layout_gravity="end">
+
+        <include layout="@layout/nav_drawer_cart" />
+    </RelativeLayout>
+
+
+</com.example.administrador.pvsegalmex.view.MyDrawerLayout>
+
+

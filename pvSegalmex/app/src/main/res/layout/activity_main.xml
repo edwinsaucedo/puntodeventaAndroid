@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/login2"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/dip_24"
+    android:paddingTop="@dimen/dip_56"
+    android:paddingEnd="@dimen/dip_24"
+    tools:context=".view.MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dip_17"
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/edtUserPassword"
+            app:boxStrokeColor="@color/bluePantone"
+            style="@style/TextLabel"
+            app:hintTextAppearance="@color/bluePantone"
+            android:textColorHint="@color/bluePantone">
+
+            <EditText
+                android:id="@+id/edtUserNick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeui"
+                android:backgroundTint="@color/bluePantone"
+                android:hint="@string/userNick"
+                android:inputType="text"
+                android:textSize="@dimen/dip_20"
+                android:textColor="@color/bluePantone"
+                android:textColorHint="@color/bluePantone" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_8"
+            app:hintTextAppearance="@color/bluePantone"
+            android:layout_marginBottom="@dimen/dip_8"
+            android:textColorHint="@color/bluePantone">
+
+            <EditText
+                android:id="@+id/edtUserPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/bluePantone"
+                android:hint="@string/userPassword"
+                android:textSize="@dimen/dip_20"
+                android:fontFamily="@font/segoeui"
+                android:inputType="textPassword"
+                android:textColor="@color/bluePantone"
+                android:textColorHint="@color/bluePantone" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/segoeui"
+            android:layout_marginBottom="@dimen/dip_24"
+            android:textSize="@dimen/dip_15"
+            android:background="@drawable/degradado_buttons"
+            android:padding="@dimen/dip_12"
+            android:text="@string/btnLoginText"
+            android:textColor="@color/white" />
+
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

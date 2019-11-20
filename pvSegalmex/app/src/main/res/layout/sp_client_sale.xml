@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dip_40">
+    <TextView
+        android:textColor="@color/light_gray"
+        android:paddingEnd="-100dp"
+        android:layout_weight="1"
+        android:id="@+id/tvClientSale"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dip_10"
+        android:paddingRight="@dimen/dip_10"
+        android:lines="1"
+        android:textSize="@dimen/dip_13"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/windowBackground"
+        />
+</LinearLayout>

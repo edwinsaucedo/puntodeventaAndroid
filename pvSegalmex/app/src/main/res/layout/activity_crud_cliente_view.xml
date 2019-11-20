@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="@dimen/dip_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dip_10"
+        tools:context=".view.CrudClienteView">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dip_10"
+            app:cardCornerRadius="@dimen/dip_7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtClientName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:hint="@string/edtClientName"
+                        android:maxLines="1"
+                        android:focusable="true"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtClientLastName1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:hint="@string/edtLastName1"
+                        android:maxLines="1"
+                        android:focusable="true"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtClientLastName2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:hint="@string/edtLastName2"
+                        android:maxLines="1"
+                        android:focusable="true"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:text="@string/edtGenre"
+                            android:textColor="@color/bluePantone"
+                            android:textSize="@dimen/dip_13" />
+
+                        <android.support.v7.widget.AppCompatSpinner
+                            android:id="@+id/spGenre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/bluePantone">
+
+                        </android.support.v7.widget.AppCompatSpinner>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dip_5">
+
+                            <EditText
+                                android:id="@+id/edtClientCurp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/segoeui"
+                                android:hint="@string/edtClientCurp"
+                                android:inputType="textCapCharacters"
+                                android:maxLines="1"
+                                android:focusable="true"
+                                android:singleLine="true"
+                                android:textColor="@color/bluePantone"
+                                android:textSize="@dimen/dip_13" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:hint="@string/edtAddress"
+                        android:focusable="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtMail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:hint="@string/edtMail"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:focusable="true"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:hint="@string/edtPhone"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:focusable="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_10"
+            app:cardCornerRadius="@dimen/dip_7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:padding="@dimen/dip_5">
+
+                        <EditText
+                            android:id="@+id/edtCreditDays"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:hint="@string/edtCreditDays"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:focusable="true"
+                            android:selectAllOnFocus="true"
+                            android:singleLine="true"
+                            android:textColor="@color/bluePantone"
+                            android:textSize="@dimen/dip_13" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:padding="@dimen/dip_5">
+
+                        <EditText
+                            android:id="@+id/edtCreditLimit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:hint="@string/edtCreditLimit"
+                            android:inputType="numberDecimal"
+                            android:maxLines="1"
+                            android:focusable="true"
+                            android:selectAllOnFocus="true"
+                            android:singleLine="true"
+                            android:textColor="@color/bluePantone"
+                            android:textSize="@dimen/dip_13" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtIneString"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:hint="@string/edtIneString"
+                        android:focusable="true"
+                        android:inputType="textCapCharacters"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dip_10"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dip_10"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dip_10">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/dip_5"
+                            android:fontFamily="@font/segoeui"
+                            android:text="@string/edtPhotoClient"
+                            android:textColor="@color/bluePantone"
+                            android:textSize="@dimen/dip_13" />
+
+                        <ImageView
+                            android:id="@+id/imvClientPhoto"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dip_200"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/dip_5"
+                            android:layout_marginBottom="@dimen/dip_5" />
+
+                        <ImageView
+                            android:id="@+id/imvTakePhoto1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/photo_camera" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dip_10">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/dip_5"
+                            android:fontFamily="@font/segoeui"
+                            android:text="@string/edtPhotoIne"
+                            android:textColor="@color/bluePantone"
+                            android:textSize="@dimen/dip_13" />
+
+                        <ImageView
+                            android:id="@+id/imvInePhoto"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dip_200"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/dip_5"
+                            android:layout_marginBottom="@dimen/dip_5" />
+
+                        <ImageView
+                            android:id="@+id/imvTakePhoto2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/photo_camera" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_40"
+                    android:layout_marginBottom="@dimen/dip_10"
+                    android:background="@drawable/degradado_buttons"
+                    android:fontFamily="@font/segoeui"
+                    android:text="@string/btnSave"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dip_15" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_2"
+                android:background="@color/windowBackground" />
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

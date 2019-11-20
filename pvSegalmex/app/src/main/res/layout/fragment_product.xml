@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="@dimen/dip_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dip_10"
+        tools:context=".view.CrudProductView">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dip_10"
+            app:cardCornerRadius="@dimen/dip_7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtProductCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/barcode"
+                        android:hint="@string/edtProductCode"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtProductDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/edtProductDescription"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtProductAlternateCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/edtProductAlternateCode"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dip_5">
+
+                            <EditText
+                                android:id="@+id/edtProductMax"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/edtProductMax"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:selectAllOnFocus="true"
+                                android:singleLine="true"
+                                android:textColor="@color/bluePantone"
+                                android:textSize="@dimen/dip_13" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dip_5">
+
+                            <EditText
+                                android:id="@+id/edtProductMin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/edtProductMin"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:selectAllOnFocus="true"
+                                android:singleLine="true"
+                                android:textColor="@color/bluePantone"
+                                android:textSize="@dimen/dip_13" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dip_5"
+                        android:layout_marginRight="@dimen/dip_5"
+                        android:layout_weight="50"
+                        android:background="@color/white"
+                        android:weightSum="100"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:text="@string/edtProductUnitMeasurement"
+                            android:layout_weight="40"
+                            android:paddingLeft="@dimen/dip_10"
+                            android:layout_marginTop="@dimen/dip_10"
+                            android:layout_marginBottom="@dimen/dip_5"/>
+
+                            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                                android:id="@+id/spinnerMeasurement"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="70"
+                                android:layout_marginBottom="@dimen/dip_10"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dip_5"
+                        android:layout_marginRight="@dimen/dip_5"
+                        android:layout_weight="50"
+                        android:background="@color/white"
+                        android:weightSum="100"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:text="@string/edtProductUnitMeasurementPurchase"
+                            android:layout_weight="40"
+                            android:paddingLeft="@dimen/dip_10"
+                            android:layout_marginTop="@dimen/dip_10"
+                            android:layout_marginBottom="@dimen/dip_5"/>
+
+                        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                            android:id="@+id/spinnerUnitPurchase"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="70"
+                            android:enabled="false"
+                            android:layout_marginBottom="@dimen/dip_10"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dip_5">
+
+                            <EditText
+                                android:id="@+id/edtProductFactor"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/edtProductFactor"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:selectAllOnFocus="true"
+                                android:singleLine="true"
+                                android:textColor="@color/bluePantone"
+                                android:textSize="@dimen/dip_13" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dip_5">
+
+                            <EditText
+                                android:id="@+id/edtProductReorderPoint"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/edtProductReorderPoint"
+                                android:inputType="numberDecimal"
+                                android:maxLines="1"
+                                android:selectAllOnFocus="true"
+                                android:singleLine="true"
+                                android:textColor="@color/bluePantone"
+                                android:textSize="@dimen/dip_13" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dip_5"
+                    android:padding="@dimen/dip_5"
+                    android:text="@string/txvProductCategory"
+                    android:textColor="@color/bluePantone"
+                    android:textSize="@dimen/dip_13" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:prompt="@string/SpDefault"
+                    android:textColor="@color/bluePantone">
+
+                </android.support.v7.widget.AppCompatSpinner>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_10"
+            app:cardCornerRadius="@dimen/dip_7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txvProductDiconsa"
+                            android:textColor="@color/bluePantone"
+                            android:textSize="@dimen/dip_13" />
+
+                        <android.support.v7.widget.AppCompatCheckBox
+                            android:id="@+id/chboxProductDiconsa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txvProductService"
+                            android:textColor="@color/bluePantone"
+                            android:textSize="@dimen/dip_13" />
+
+                        <android.support.v7.widget.AppCompatCheckBox
+                            android:id="@+id/chboxProductService"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txvProductGranel"
+                            android:textColor="@color/bluePantone"
+                            android:textSize="@dimen/dip_13" />
+
+                        <android.support.v7.widget.AppCompatCheckBox
+                            android:id="@+id/chboxProductGranel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtProductCostSale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/edtProductCost"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:selectAllOnFocus="true"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtProductCostLastPurchase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:hint="@string/edtProductCostLastPurchase"
+                        android:maxLines="1"
+                        android:selectAllOnFocus="true"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtProductDateLastPurchase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/edtProductDate"
+                        android:inputType="date"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/bluePantone"
+                        android:textSize="@dimen/dip_13" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_2"
+                android:background="@color/windowBackground" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_2"
+            android:background="@color/windowBackground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dip_10"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dip_5"
+                    android:fontFamily="@font/segoeui"
+                    android:text="@string/imvProduct"
+                    android:textColor="@color/bluePantone"
+                    android:textSize="@dimen/dip_13" />
+
+                <ImageView
+                    android:id="@+id/imvImageProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_150"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dip_5"
+                    android:layout_marginBottom="@dimen/dip_5" />
+
+                <ImageView
+                    android:id="@+id/imvTakeImageProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/photo_camera" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnSaveProduct"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_40"
+            android:layout_marginBottom="@dimen/dip_30"
+            android:background="@drawable/degradado_buttons"
+            android:text="@string/btnSave"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dip_15" />
+    </LinearLayout>
+
+</ScrollView>

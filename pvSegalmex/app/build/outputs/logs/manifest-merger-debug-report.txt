@@ -1,0 +1,812 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:173:9-181:20
+	android:grantUriPermissions
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:177:13-47
+	android:authorities
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:175:13-60
+	android:exported
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:176:13-37
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:174:13-67
+manifest
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\98dc1b2f1eb17c6c14795ba07dabd99c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a72ab1ee8b4cc539e1b4c180480b097c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:1.5.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\lottie-1.5.3.aar\352282d3e05a8f813ee5eb9cfdd42aa8\AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.android:facebook-login:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-login-5.11.0.aar\4e014c0dce25714e8df276da223db718\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c48635beb32aae8eac3e88fe8552ca2b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b3efef2a46f6e8dd5b921bc20a0560f4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7bd0eaa0dd67a8696a7785f24fb5ab3e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\916ae57b76acc2a6879b7e6b0fa6a579\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-2.0.aar\e702fdf446884e75f8fda6f13504fc5d\AndroidManifest.xml:2:1-17:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94c2f14994e946eeb70b2846d16b87ff\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:17:1-32:12
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\searchablespinnerlibrary-1.3.1.aar\7643fdd533ad575df4dcce2a726c3dde\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.1.aar\e954fcd78349782045a8d2b6ce634f0d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\37634492bf88506a447caa9a80261f82\AndroidManifest.xml:2:1-7:12
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\1f0a0db7d50833c6de16989626694c2f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d21d01b5a53a84df4fc200484346453\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\699433efbc54df5b57e92e4f5acfb26b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\50cf14b64059d1f5cb8af7260c753523\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\36ff3e2c0a8b769beae3cd6d6d852c25\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\83c1a353e84675bebf8b50dff040cd42\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.1.aar\23e1eb2852a7df5cc4698bd3077277ea\AndroidManifest.xml:15:1-20:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dda46cfd44abdeb2ce173d1ba5075904\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1c2c44ffbbe63d4fd35291a764726e72\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\49463d2da66b27af5764720509eb4f5a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9198c4e1c5d362247e12c4e596f1f6e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:21:1-61:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\56c84b35004b102745ea2c62a03e2c2b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ed49f8545b2d33327da05a5315fee6b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\75e129026d710e597905af5f067a54c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\c6fe0d00c761d9f85f004c17a859e367\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55a6b66ea202430bd9e356c9e81ecd8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\548f27e785be635e126002447a4fa04c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a063f785d6b3e0f8f13d7df94185efd2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\55f10ebd6363618368b28776d618c6e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\afbd0be0ef034af0f5a7a992781e4576\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f890df7228415c159b5840d583ab4d00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c3b5f070b35ea234f940e60c099663fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c3ef681abd59076f9a7a790bc06b039e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\bfbfe1bf078192b05e97620cd0a30744\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b6943067f8b4feb7b8709cdf9c92783f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4499f8994b212547e3e55d7fa8edee3c\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bb74a6b3ebc6ff3baae8283945a11b7e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ec9d52a7cd0c074491b76d04e0b89999\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\bfa6f6d0361efa23ee991e9f9b84433b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\a180d8ff69854e33879c362b1aa85d1e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\fe548f0097a6652cabaaa8fe2dcb0914\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d91122913c91922f1635edeaec1cf89\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\828aa5649e86360e3df5f4bee4e21e45\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\72e837cd7d62f28990ad65adb200763c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\f1d78496d299613c9e5da2301a911ae2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2f9a720b22da612153162b174f4ac6e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7a3dd116d3fbf3679b0e897971ed22bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4c9b3c4cfcf00d292e64a2811fdb6d10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\31bbe645d61dee3fde4b8997c3896344\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+	package
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:4:5-51
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:1-227:12
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:6:5-8:38
+	android:maxSdkVersion
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:8:9-35
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:7:9-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:15:5-73
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:15:22-70
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:18:22-75
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:19:5-77
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:19:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:20:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:22:22-65
+application
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:24:5-225:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a72ab1ee8b4cc539e1b4c180480b097c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a72ab1ee8b4cc539e1b4c180480b097c\AndroidManifest.xml:22:5-20
+MERGED from [com.airbnb.android:lottie:1.5.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\lottie-1.5.3.aar\352282d3e05a8f813ee5eb9cfdd42aa8\AndroidManifest.xml:10:5-20
+MERGED from [com.airbnb.android:lottie:1.5.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\lottie-1.5.3.aar\352282d3e05a8f813ee5eb9cfdd42aa8\AndroidManifest.xml:10:5-20
+MERGED from [com.facebook.android:facebook-login:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-login-5.11.0.aar\4e014c0dce25714e8df276da223db718\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-login-5.11.0.aar\4e014c0dce25714e8df276da223db718\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:28:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7bd0eaa0dd67a8696a7785f24fb5ab3e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7bd0eaa0dd67a8696a7785f24fb5ab3e\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-2.0.aar\e702fdf446884e75f8fda6f13504fc5d\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-2.0.aar\e702fdf446884e75f8fda6f13504fc5d\AndroidManifest.xml:11:5-15:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94c2f14994e946eeb70b2846d16b87ff\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94c2f14994e946eeb70b2846d16b87ff\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:30:5-20
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\searchablespinnerlibrary-1.3.1.aar\7643fdd533ad575df4dcce2a726c3dde\AndroidManifest.xml:11:5-15:19
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\searchablespinnerlibrary-1.3.1.aar\7643fdd533ad575df4dcce2a726c3dde\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\699433efbc54df5b57e92e4f5acfb26b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\699433efbc54df5b57e92e4f5acfb26b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\50cf14b64059d1f5cb8af7260c753523\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\50cf14b64059d1f5cb8af7260c753523\AndroidManifest.xml:22:5-26:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:22:5-28:19
+MERGED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:28:5-59:19
+MERGED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:28:5-59:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b6943067f8b4feb7b8709cdf9c92783f\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b6943067f8b4feb7b8709cdf9c92783f\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4499f8994b212547e3e55d7fa8edee3c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4499f8994b212547e3e55d7fa8edee3c\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b6943067f8b4feb7b8709cdf9c92783f\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:28:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:32:9-56
+	tools:ignore
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:33:9-48
+	android:roundIcon
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:29:9-47
+	android:icon
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:27:9-38
+	android:allowBackup
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:31:9-40
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:25:9-50
+service#com.example.administrador.pvsegalmex.MyService
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:34:9-37:47
+	android:enabled
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:35:13-38
+activity#com.example.administrador.pvsegalmex.view.CreditView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:39:9-53
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:39:19-50
+activity#com.example.administrador.pvsegalmex.view.ExistView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:40:9-43:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:42:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:41:13-43
+activity#com.example.administrador.pvsegalmex.view.Splash
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:44:9-53:20
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:46:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:45:13-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:48:13-52:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:51:27-74
+activity#com.example.administrador.pvsegalmex.view.CrudReceiptMerchandiseView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:54:9-57:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:56:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:55:13-60
+activity#com.example.administrador.pvsegalmex.view.ReceiptOfMerchandiseView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:58:9-61:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:60:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:59:13-58
+activity#com.example.administrador.pvsegalmex.view.ShowCashShortDetailView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:62:9-65:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:64:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:63:13-57
+activity#com.example.administrador.pvsegalmex.view.IntroView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:66:9-69:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:68:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:67:13-43
+activity#com.example.administrador.pvsegalmex.view.ShowCashIncomeView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:70:9-73:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:72:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:71:13-52
+activity#com.example.administrador.pvsegalmex.view.PdfViewer
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:74:9-77:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:76:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:77:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:75:13-43
+activity#com.example.administrador.pvsegalmex.view.DetailSaleView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:78:9-81:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:80:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:81:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:79:13-48
+activity#com.example.administrador.pvsegalmex.view.CashIncomeView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:82:9-85:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:84:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:83:13-48
+activity#com.example.administrador.pvsegalmex.view.CrudCashIncomeView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:86:9-89:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:88:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:89:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:87:13-52
+activity#com.example.administrador.pvsegalmex.view.SaleView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:90:9-93:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:92:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:93:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:91:13-42
+activity#com.example.administrador.pvsegalmex.view.ShowWithdrawalView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:94:9-98:59
+	android:parentActivityName
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:97:13-62
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:96:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:98:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:95:13-52
+activity#com.example.administrador.pvsegalmex.view.FinallySaleView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:99:9-102:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:101:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:102:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:100:13-49
+activity#com.example.administrador.pvsegalmex.view.EditStoreView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:103:9-107:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:106:13-45
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:105:13-59
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:107:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:104:13-47
+activity#com.example.administrador.pvsegalmex.view.StoreView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:108:9-111:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:110:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:111:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:109:13-43
+activity#com.example.administrador.pvsegalmex.view.CashShortDetailView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:112:9-115:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:114:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:115:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:113:13-53
+activity#com.example.administrador.pvsegalmex.view.CollectionOfPaymentView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:116:9-119:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:118:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:119:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:117:13-57
+activity#com.example.administrador.pvsegalmex.view.CrudWithdrawalView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:120:9-124:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:123:13-45
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:122:13-59
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:124:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:121:13-52
+activity#com.example.administrador.pvsegalmex.view.WithdrawalView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:125:9-128:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:127:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:128:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:126:13-48
+activity#com.example.administrador.pvsegalmex.view.CrudCashShortDetailView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:129:9-132:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:131:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:132:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:130:13-57
+activity#com.example.administrador.pvsegalmex.view.PointOfSaleView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:133:9-137:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:136:13-45
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:135:13-83
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:137:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:134:13-49
+activity#com.example.administrador.pvsegalmex.view.ProductView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:138:9-141:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:140:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:141:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:139:13-45
+activity#com.example.administrador.pvsegalmex.view.CrudProductView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:142:9-146:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:145:13-45
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:144:13-59
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:146:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:143:13-49
+activity#com.example.administrador.pvsegalmex.view.CrudCategoryView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:147:9-150:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:149:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:150:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:148:13-50
+activity#com.example.administrador.pvsegalmex.view.CategoryView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:151:9-154:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:153:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:154:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:152:13-46
+activity#com.example.administrador.pvsegalmex.view.ProviderView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:155:9-158:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:157:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:158:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:156:13-46
+activity#com.example.administrador.pvsegalmex.view.CrudProviderView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:159:9-163:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:162:13-45
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:161:13-59
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:163:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:160:13-50
+activity#com.example.administrador.pvsegalmex.view.GalleryView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:164:9-167:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:166:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:167:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:165:13-45
+activity#com.example.administrador.pvsegalmex.view.CrudWayPayView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:168:9-171:59
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:170:13-59
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:171:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:169:13-48
+activity#com.example.administrador.pvsegalmex.view.CrudDepartamentView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:183:9-187:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:186:13-45
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:185:13-59
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:187:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:184:13-53
+activity#com.example.administrador.pvsegalmex.view.TakePhotoView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:188:9-190:59
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:190:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:189:13-47
+activity#com.example.administrador.pvsegalmex.view.CrudClienteView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:191:9-195:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:194:13-45
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:193:13-59
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:195:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:192:13-49
+activity#com.example.administrador.pvsegalmex.view.DepartmentView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:196:9-199:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:198:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:199:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:197:13-48
+activity#com.example.administrador.pvsegalmex.view.WayPayView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:200:9-203:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:202:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:203:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:201:13-44
+activity#com.example.administrador.pvsegalmex.view.ClienteView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:204:9-207:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:206:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:207:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:205:13-45
+activity#com.example.administrador.pvsegalmex.view.InicioView
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:208:9-211:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:210:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:211:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:209:13-44
+activity#com.example.administrador.pvsegalmex.view.MainActivity
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:212:9-215:59
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:214:13-45
+	android:theme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:215:13-56
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:213:13-46
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:217:9-107
+	android:value
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:217:66-105
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:217:20-65
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:218:9-184
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:218:149-181
+	android:configChanges
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:218:64-148
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:218:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:219:9-223:20
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:219:65-88
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:219:19-64
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:219:90-222:25
+action#android.intent.action.VIEW
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:220:13-65
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:220:21-62
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:220:66-125
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:220:76-122
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:220:126-187
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:220:136-184
+data
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:221:13-71
+	android:scheme
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:221:19-68
+uses-sdk
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\98dc1b2f1eb17c6c14795ba07dabd99c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\98dc1b2f1eb17c6c14795ba07dabd99c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a72ab1ee8b4cc539e1b4c180480b097c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a72ab1ee8b4cc539e1b4c180480b097c\AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:1.5.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\lottie-1.5.3.aar\352282d3e05a8f813ee5eb9cfdd42aa8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.airbnb.android:lottie:1.5.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\lottie-1.5.3.aar\352282d3e05a8f813ee5eb9cfdd42aa8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.facebook.android:facebook-login:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-login-5.11.0.aar\4e014c0dce25714e8df276da223db718\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-login-5.11.0.aar\4e014c0dce25714e8df276da223db718\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c48635beb32aae8eac3e88fe8552ca2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c48635beb32aae8eac3e88fe8552ca2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b3efef2a46f6e8dd5b921bc20a0560f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b3efef2a46f6e8dd5b921bc20a0560f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7bd0eaa0dd67a8696a7785f24fb5ab3e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7bd0eaa0dd67a8696a7785f24fb5ab3e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\916ae57b76acc2a6879b7e6b0fa6a579\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-v13-28.0.0.aar\916ae57b76acc2a6879b7e6b0fa6a579\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:5:5-44
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-2.0.aar\e702fdf446884e75f8fda6f13504fc5d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-2.0.aar\e702fdf446884e75f8fda6f13504fc5d\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94c2f14994e946eeb70b2846d16b87ff\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\94c2f14994e946eeb70b2846d16b87ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:20:5-44
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\searchablespinnerlibrary-1.3.1.aar\7643fdd533ad575df4dcce2a726c3dde\AndroidManifest.xml:7:5-9:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\searchablespinnerlibrary-1.3.1.aar\7643fdd533ad575df4dcce2a726c3dde\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.1.aar\e954fcd78349782045a8d2b6ce634f0d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:2.8.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.8.1.aar\e954fcd78349782045a8d2b6ce634f0d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\37634492bf88506a447caa9a80261f82\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\37634492bf88506a447caa9a80261f82\AndroidManifest.xml:5:5-43
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\1f0a0db7d50833c6de16989626694c2f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.1.aar\1f0a0db7d50833c6de16989626694c2f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d21d01b5a53a84df4fc200484346453\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d21d01b5a53a84df4fc200484346453\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\699433efbc54df5b57e92e4f5acfb26b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\699433efbc54df5b57e92e4f5acfb26b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\50cf14b64059d1f5cb8af7260c753523\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\50cf14b64059d1f5cb8af7260c753523\AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\36ff3e2c0a8b769beae3cd6d6d852c25\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.7.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.7.1.aar\36ff3e2c0a8b769beae3cd6d6d852c25\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\83c1a353e84675bebf8b50dff040cd42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\83c1a353e84675bebf8b50dff040cd42\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.1.aar\23e1eb2852a7df5cc4698bd3077277ea\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\rxandroid-2.1.1.aar\23e1eb2852a7df5cc4698bd3077277ea\AndroidManifest.xml:18:5-43
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dda46cfd44abdeb2ce173d1ba5075904\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dda46cfd44abdeb2ce173d1ba5075904\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1c2c44ffbbe63d4fd35291a764726e72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1c2c44ffbbe63d4fd35291a764726e72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\49463d2da66b27af5764720509eb4f5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\49463d2da66b27af5764720509eb4f5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9198c4e1c5d362247e12c4e596f1f6e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9198c4e1c5d362247e12c4e596f1f6e2\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\56c84b35004b102745ea2c62a03e2c2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\56c84b35004b102745ea2c62a03e2c2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ed49f8545b2d33327da05a5315fee6b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ed49f8545b2d33327da05a5315fee6b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\75e129026d710e597905af5f067a54c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\75e129026d710e597905af5f067a54c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\c6fe0d00c761d9f85f004c17a859e367\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\c6fe0d00c761d9f85f004c17a859e367\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55a6b66ea202430bd9e356c9e81ecd8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55a6b66ea202430bd9e356c9e81ecd8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\548f27e785be635e126002447a4fa04c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\548f27e785be635e126002447a4fa04c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a063f785d6b3e0f8f13d7df94185efd2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\a063f785d6b3e0f8f13d7df94185efd2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\55f10ebd6363618368b28776d618c6e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\55f10ebd6363618368b28776d618c6e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\afbd0be0ef034af0f5a7a992781e4576\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\afbd0be0ef034af0f5a7a992781e4576\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f890df7228415c159b5840d583ab4d00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f890df7228415c159b5840d583ab4d00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c3b5f070b35ea234f940e60c099663fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c3b5f070b35ea234f940e60c099663fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c3ef681abd59076f9a7a790bc06b039e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c3ef681abd59076f9a7a790bc06b039e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\bfbfe1bf078192b05e97620cd0a30744\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\bfbfe1bf078192b05e97620cd0a30744\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b6943067f8b4feb7b8709cdf9c92783f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b6943067f8b4feb7b8709cdf9c92783f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4499f8994b212547e3e55d7fa8edee3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\4499f8994b212547e3e55d7fa8edee3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bb74a6b3ebc6ff3baae8283945a11b7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bb74a6b3ebc6ff3baae8283945a11b7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ec9d52a7cd0c074491b76d04e0b89999\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ec9d52a7cd0c074491b76d04e0b89999\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\bfa6f6d0361efa23ee991e9f9b84433b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\bfa6f6d0361efa23ee991e9f9b84433b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\a180d8ff69854e33879c362b1aa85d1e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\a180d8ff69854e33879c362b1aa85d1e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\fe548f0097a6652cabaaa8fe2dcb0914\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\fe548f0097a6652cabaaa8fe2dcb0914\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d91122913c91922f1635edeaec1cf89\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\5d91122913c91922f1635edeaec1cf89\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\828aa5649e86360e3df5f4bee4e21e45\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\828aa5649e86360e3df5f4bee4e21e45\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\72e837cd7d62f28990ad65adb200763c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\72e837cd7d62f28990ad65adb200763c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\f1d78496d299613c9e5da2301a911ae2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\f1d78496d299613c9e5da2301a911ae2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2f9a720b22da612153162b174f4ac6e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2f9a720b22da612153162b174f4ac6e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7a3dd116d3fbf3679b0e897971ed22bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7a3dd116d3fbf3679b0e897971ed22bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4c9b3c4cfcf00d292e64a2811fdb6d10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\4c9b3c4cfcf00d292e64a2811fdb6d10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\31bbe645d61dee3fde4b8997c3896344\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\31bbe645d61dee3fde4b8997c3896344\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:178:13-180:58
+	android:resource
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:180:17-55
+	android:name
+		ADDED from C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\src\main\AndroidManifest.xml:179:17-67
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-common-5.11.0.aar\72c5bbaa072878959f418b5c2d8b82c6\AndroidManifest.xml:33:19-68
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\a796b2c5a416744505c97166a0ec8c92\AndroidManifest.xml:9:13-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\26f8b748a100102ed839de199d76251d\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\32a09085ac437dceb06682198c1397a6\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\50cf14b64059d1f5cb8af7260c753523\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\50cf14b64059d1f5cb8af7260c753523\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\50cf14b64059d1f5cb8af7260c753523\AndroidManifest.xml:24:13-58
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\022fe89bfffa9ef1f51c212507b12424\AndroidManifest.xml:24:13-83
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:48:25-92
+receiver#com.facebook.CampaignTrackingReceiver
+ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:52:13-65
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:55:13-57:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] C:\Users\sistemas11\.gradle\caches\transforms-1\files-1.1\facebook-core-5.11.0.aar\35c5059103c759d73d90e2172c0f4977\AndroidManifest.xml:56:25-76

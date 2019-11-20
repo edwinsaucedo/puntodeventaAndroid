@@ -1,0 +1,4 @@
+# Referenced at C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:33
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\sistemas11\Downloads\pvSegalmex-20191119T160642Z-001\pvSegalmex\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:33
+-keep class com.example.administrador.pvsegalmex.application.AppController { <init>(); }

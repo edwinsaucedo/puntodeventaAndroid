@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">PUNTO CYTRUSS</string>
+    <string name="action_settings">Configuraciones</string>
+
+    <!--LOGIN-->
+    <string name="contentDescription">Logo</string>
+    <string name="userNick">Usuario:</string>
+    <string name="userPassword">Contraseña:</string>
+    <string name="btnLoginText">Iniciar Sesión</string>
+    <string name="loginInvalid">Credenciales invalidas.</string>
+    <string name="SpDefault">Seleccione una categoría:</string>
+
+    <!--MENU PRINCIPAL-->
+    <string name="itemMenu1">Inicio</string>
+    <string name="itemMenu2">Clientes</string>
+    <string name="itemMenu3">Formas de pago</string>
+    <string name="itemMenu4">Departamentos</string>
+    <string name="itemMenu6">Proveedores</string>
+    <string name="itemMenu7">Categorías</string>
+    <string name="itemMenu8">Productos</string>
+    <string name="itemMenu9">Tipo de Documento</string>
+    <string name="itemMenu10">Punto de Venta</string>
+    <string name="itemMenu11">Retiro de Caja</string>
+    <string name="itemMenu13">Tienda</string>
+    <string name="itemMenu12">Cierre de Caja</string>
+    <string name="itemMenu14">Ventas</string>
+    <string name="itemMenu15">Ingresos a Caja</string>
+    <string name="itemMenu16">Recibo de mercancía</string>
+    <string name="itemMenu17">Stock</string>
+    <string name="itemMenu5">Cerrar sesión</string>
+
+    <!--Administracion Clientes && CRUD Clientes-->
+    <string name="edtClientName">Cliente.</string>
+    <string name="edtClientCurp">CURP.</string>
+
+    <!--Administracion Clientes-->
+    <string name="delClientWarningMessage">¿Estas seguro de eliminar el cliente?</string>
+    <string name="delClientWarningTitle">¡Adevertencia!</string>
+    <string name="deleteClientSuccess">Cliente eliminado correctamente.</string>
+
+    <!--CRUD Clientes-->
+    <string name="pageTitle">Cliente</string>
+    <string name="edtLastName1">Apellido Paterno.</string>
+    <string name="edtLastName2">Apellido Materno.</string>
+    <string name="edtCreditLimit">Límite de crédito.</string>
+    <string name="edtCreditDays">Días de créditos.</string>
+    <string name="edtGenre">Género.</string>
+    <string name="edtAddress">Dirección.</string>
+    <string name="edtIneString">Cadena de INE.</string>
+    <string name="edtPhotoClient">Foto del cliente.</string>
+    <string name="edtPhotoIne">Foto del INE</string>
+    <string name="edtMail">Correo</string>
+    <string name="edtPhone">Teléfono</string>
+
+    <string-array name="genres">
+        <item>Selecciona:</item>
+        <item>M</item>
+        <item>F</item>
+        <item>O</item>
+    </string-array>
+
+    <!--Administracion Clientes-->
+    <string name="btnAddClient">Agregar Cliente</string>
+
+    <!--Administracion Departamentos && CRUD Departamentos-->
+    <string name="edtDepartamentoDesc">Departamento.</string>
+
+    <!--Administracion Departamentos-->
+    <string name="btnAddDepartament">Agregar Departamento</string>
+    <string name="delDepartamentWarningMessage">¿Estás seguro de eliminar el departamento?</string>
+    <string name="delDepartamentWarningTitle">¡Advertencia!</string>
+    <string name="deleteDepartamentSuccess">Departamento eliminado correctamente.</string>
+
+    <!--Administracion FormaPago-->
+    <string name="btnAddWayPay">Agregar forma de pago</string>
+    <string name="addImage">Agregar Forma de Pago</string>
+    <string name="edtWayPayDescription">Descripción forma de pago</string>
+    <string name="imvImage">Imagen de forma de pago.</string>
+    <string name="delWayPayWarningMessage">¿Estás seguro de eliminar la forma de pago?</string>
+    <string name="delWayPayWarningTitle">¡Advertencia!</string>
+    <string name="deleteWayPaySuccess">Forma de pago eliminada correctamente.</string>
+    <string name="pageTitleWayPay">Forma de Pago</string>
+
+
+    <!--Administracion Proveedores-->
+    <string name="delProviderWarningMessage">¿Estás seguro de eliminar el proveedor?</string>
+    <string name="askProvider">Debes de tener al menos un proveedor registrado ¿Deseas registrar un proveedor?</string>
+    <string name="delProviderWarningTitle">¡Advertencia!</string>
+    <string name="deleteProviderSuccess">Proveedor eliminado correctamente.</string>
+
+
+    <!---Crud Proveedores-->
+    <string name="pageTitleSupplier">Proveedores</string>
+    <string name="edtProviderName">Nombre.</string>
+    <string name="edtProviderRFC">RFC.</string>
+    <string name="edtProviderDatePay">Fecha de pago.</string>
+    <string name="edtProviderAlias">Alias.</string>
+    <string name="edtProviderCurp">CURP.</string>
+    <string name="edtProviderPhone">Teléfono.</string>
+    <string name="edtProviderEmail">Correo electrónico.</string>
+    <string name="edtProviderComments">Comentarios.</string>
+    <string name="edtProviderCreditLimit">Límite de credito</string>
+    <string name="edtProviderCreditDays">Días de crédito.</string>
+    <string name="edtProviderDiconsa">ERP</string>
+    <string name="edtProviderStatus">Estatus</string>
+
+    <!--Administracion Productos-->
+    <string name="edtProductName">Producto.</string>
+    <string name="askCategory">Debes de tener al menos una categoria registrada ¿Deseas registrar una categoría?</string>
+    <string name="categoryWawning">¡No hay categorías registradas!</string>
+
+    <!---Crud Productos-->
+    <string name="delProductWarningMessage">¿Estás seguro de eliminar el producto?</string>
+    <string name="delProductWarningTitle">¡Advertencia!</string>
+    <string name="deleteProductSuccess">El producto se elimino correctamente.</string>
+
+    <string name="pageTitleProduct">Producto</string>
+    <string name="edtProductCode">Código.</string>
+    <string name="edtProductAlternateCode">Código alterno.</string>
+    <string name="edtProductDescription">Descripción</string>
+    <string name="edtProductMax">Max.</string>
+    <string name="edtProductMin">Min.</string>
+    <string name="edtProductReorderPoint">Punto de reorden.</string>
+    <string name="edtProductUnitMeasurement">Unidad Medida.</string>
+    <string name="edtProductUnitMeasurementPurchase">Unidad medida compra.</string>
+    <string name="edtProductFactor">Factor.</string>
+    <string name="txvProductService">Servicio</string>
+    <string name="txvProductDiconsa">ERP.</string>
+    <string name="txvProductCategory">Categoría</string>
+    <string name="txvProductGranel">Granel.</string>
+    <string name="edtProductCost">Costo</string>
+    <string name="edtProductCostLastPurchase">Costo ultima compra</string>
+    <string name="edtProductDate">Fecha ultima compra</string>
+
+    <!---Crud Productos-Precio-->
+    <string name="pageTitleFragmentProduct">Información del producto</string>
+    <string name="pageTitleFragmentProductPrice">Precio del producto</string>
+    <string name="txvProductPriceLevel">Nivel</string>
+    <string name="edtProductPricePrice">Precio</string>
+    <string name="edtProductPriceCost">Costo</string>
+    <string name="edtProductPriceQuantity">Cantidad</string>
+    <string name="edtProductPricePercentage">% de  utilidad</string>
+
+    <!--Administracion Categorias-->
+    <string name="edtCategory">Categoría.</string>
+    <string name="askDepartment">Debes de tener al menos un deparamento registrado. ¿Deseas registrar un nuevo departamento?</string>
+    <string name="departmentWarning">No hay departamentos registrados</string>
+
+    <!--Administracion Categorias-->
+    <string name="edtCategoryDescription">Descripción</string>
+    <string name="edtCategoryDepartment">Departamentos</string>
+
+    <!--Adminstracion TipoDocumento-->
+    <string name="edtTypeDocument">Tipo de Documento.</string>
+    <string name="delTypeDocumentWarningMessage">¿Estás seguro de eliminar el tipo de documento?</string>
+    <string name="delTypeDocumentWarningTitle">¡Alerta!</string>
+    <string name="deleteTypeDocumentSuccess">El tipo de documento eliminado correctamente.</string>
+
+    <!--Administracion TipoDocumento & CRUD-->
+    <string name="edtTypeDocumentDescription">Descripción.</string>
+    <string name="txtTypeDocumentModel">Modelo</string>
+    <string name="edtTypeDocumentConsecutive">Consecutivo</string>
+
+    <string-array name="module">
+        <item>VTA</item>
+        <item>OC</item>
+    </string-array>
+
+    <!--Aminsitracion RetiroCaja-->
+    <string name="edtDateWithdrawal">Fecha.</string>
+    <string name="delWithdrawalWarningMessage">¿Estás seguro de generar el retiro de caja?</string>
+    <string name="delWithdrawalWarningTitle">¡Alerta!</string>
+    <string name="deleteWithdrawalSuccess">Retiro de caja generado correctamente.</string>
+    <string name="tvOcurrioUnError">Ocurrio un error al consultar tienda</string>
+
+    <!--Administracion RetiroCaja && CRUD-->
+    <string name="edtCommentsWithdrawal">Comentarios.</string>
+    <string name="edtAmountWithdrawal">Monto.</string>
+
+
+    <!--Administracion CorteCajaDetalle-->
+    <string name="dateCashShortview">Fecha:</string>
+    <string name="titleCashClosing">Últimos cortes de caja</string>
+
+    <!--Administracion CorteCajaDetalle && CRUD-->
+    <string name="edtCashShortAmountCal">Monto calculado</string>
+    <string name="edtCashShortAmountCap">Monto capturado</string>
+    <string name="edtCashShortCambio">Cambio</string>
+    <string name="tvSaleCompleted">Venta completada</string>
+    <string name="tvComplete">Completo</string>
+
+
+    <!--GLOBAL-->
+    <string name="btnSearch">Buscar</string>
+    <string name="btnSave">Guardar</string>
+    <string name="fieldRequired">Campo requerido.</string>
+    <string name="messageSuccTitleGlobal">¡Operación exitosa!</string>
+    <string name="messageErrTitleGlobal">¡Error!</string>
+    <string name="addPhoto">Agregar foto.</string>
+    <string name="takePhoto">Tomar foto.</string>
+    <string name="zeroNumber">0.00</string>
+    <string name="pricesing">$</string>
+    <string name="dialogCancel">Cancelar</string>
+    <string name="dialogOk">Ok</string>
+
+    <!---Point of Sale-->
+    <string name="btnPay">Pagar</string>
+    <string name="txvItem">Artículo</string>
+    <string name="txvItems">Items</string>
+    <string name="txvPesos">$</string>
+    <string name="txvUnitPrice">P.U</string>
+    <string name="txvUtility">Utilidad </string>
+    <string name="txvSaleUtility">Utilidad por venta </string>
+
+
+    <!--Administracion punto venta-->
+    <string name="delProductSaleWarningMessage">¿Deseas eliminar los productos de la lista?</string>
+    <string name="delProductSaleWarningTitle">¡Advertencia!</string>
+
+    <string-array name="categories">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!--Administracion Tienda-->
+    <string name="titleProfileStore">Información de la Tienda</string>
+    <string name="informationOwner">Información del propietario</string>
+    <string name="nameOwner">Nombre: </string>
+    <string name="lastnameOwner">Apellido: </string>
+    <string name="directionOwner">Dirección: </string>
+    <string name="phoneNumberOwner">Teléfono: </string>
+    <string name="options">Opciones: </string>
+    <string name="ubication">Ubicación: </string>
+    <string name="latitude">Latitud: </string>
+    <string name="longitude">Longitud: </string>
+
+    <!--Administracion && CRUD Tienda-->
+    <string name="tvStoreName">Tienda:</string>
+    <string name="tvNameOwner">Propietario:</string>
+    <string name="tvDirectionStore">Dirección:</string>
+    <string name="tvLatitudeStore">Latitud:</string>
+    <string name="tvLongitudeStore">Longitud</string>
+    <string name="tvPhoneStore">Teléfono:</string>
+    <string name="imvStore">Imagen de la tienda</string>
+    <string name="imvProduct">Imagen del producto</string>
+
+    <!--Dialogo Detalle de Producto-->
+    <string name="dialogCodeProduct"> Código</string>
+    <string name="dialogDescriptionProduct"> Descripción</string>
+    <string name="dialogPriceProduct"> Precio</string>
+    <string name="dialogDiscountProduct">Aplicar descuento</string>
+
+    <!--Dialogo Agregar Cliente a Venta-->
+    <string name="dialogTitleClient">Cliente</string>
+    <string name="dialogTitleEstatus">Estatus:</string>
+    <string name="dialogAddClient">Agregar cliente</string>
+
+    <!--Venta Cobro-->
+    <string name="edtClientPay">Pago cliente</string>
+
+    <!--Detalle Venta-->
+    <string name="tvDiscountDetailSale">Descuento</string>
+    <string name="tvSubtotalDetailSale">Subtotal</string>
+    <string name="tvIVADetailSale">IVA</string>
+    <string name="tvPayDetailSale">Pago</string>
+    <string name="titleDetailSale">Detalle de venta</string>
+
+    <string name="dialogAddNewClient">¿Desea agregar un nuevo cliente?</string>
+    <string name="txvSelectedWayPay">Seleccione una forma de pago:</string>
+
+
+    <!--Administracion IngresoCaja-->
+    <string name="edtDateIncome">Fecha.</string>
+    <string name="delIncomeWarningMessage">¿Estas seguro de gerenar el ingreso a caja ?</string>
+    <string name="delIncomeWarningTitle">¡Alerta!</string>
+    <string name="deleteIncomeSuccess">Ingreso generado correctamnete.</string>
+
+
+    <!--Administracion IngresoCaja && CRUD-->
+    <string name="edtCommentsIncome">Comentarios.</string>
+    <string name="edtAmountIncome">Monto.</string>
+    <string name="titleTicketToolbar">Ticket</string>
+
+    <!--IntroView-->
+    <string name="btnNext">Siguiente</string>
+    <string name="btnBack">Anterior</string>
+    <string name="btnStart">Empezar!</string>
+
+    <!--Errores en Consulta-->
+    <string name="errorSQLITE">PV Cytruss error en:</string>
+    <string name="noHayRegistros">No hay registros</string>
+    <string name="errorConsulta">Error al consultar base de datos</string>
+    <string name="ocurrioError">Ha ocurrido un error.</string>
+    <string name="noBorrarRegistro">No se puede eliminar este registro.</string>
+    <string name="tv_basePrice">Nivel Precio Base</string>
+    <string name="tv_priceWholesale">Nivel Precio Mayoreo</string>
+    <string name="btnSaveBasePrice">Guardar precio base</string>
+    <string name="btnSaveWholePirce">Guardar precio mayoreo</string>
+
+    <!--Adminstracion Ventas-->
+    <string name="tvnumbersale">Numero de ventas</string>
+    <string name="tvTotalAmount">Total de ventas</string>
+    <string name="tvUtility">% Utilitidad</string>
+
+    <!--Administracion Existencias-->
+    <string name="tvExist">Existencia.</string>
+    <string name="tvProduct">Producto</string>
+
+    <!--Administracion ReciboMercancia-->
+    <string name="numberarticlesReceiptMerchandise">No. Articulos:</string>
+    <string name="proveder">Proveedor:</string>
+    <string name="total">Total</string>
+    <string name="product">Producto:</string>
+    <string name="dialogProduct">Ya existe este producto en su mercancía, ¿desea modificar?</string>
+    <string name="txvrecibo">Interno</string>
+    <string name="askReceiptMerchandise">El inventario de productos se encuentra vacio, ¿deseas ingresar un recibo de  mercancia? </string>
+    <string name="warningReceipMerchandise">El inventario de productos se encuentra vacio</string>
+    <string name="warningIncompleteSale">La venta no ha sido completada</string>
+    <string name="incompleteSale">Venta incompleta</string>
+    <string name="askIncompleteSale">¿Está seguro de abandonar la venta?</string>
+    <string name="folioReceiptMerchandise">Folio</string>
+    <string name="abrevFolio">fol.</string>
+
+    <!--Dialog Progress-->
+    <string name="dialogProgressTitle">Porfavor espere</string>
+    <string name="dialogProgressBody">Cargando...</string>
+
+    <!--Mensajes del servidor-->
+    <string name="exitoso">Exitoso</string>
+    <string name="errorServidor">Error en el servidor</string>
+    <string name="userPasswordError">el usuario o contraseña son incorrectas</string>
+
+    <!--Items repetidos-->
+    <string name="itemRepeat"> El producto esta repetido en la lis lista</string>
+    <string name="askItemRepeat"> ¿Desea cambiar la cantidad y/o el precio?</string>
+
+    <string name="account_type">com.example.administrador.pvsegalmex"</string>
+    <string name="authority">com.packagename.authority.</string>
+
+    <string name="facebook_app_id">441019949889096</string> <string name="fb_login_protocol_scheme">fb441019949889096</string>
+
+
+</resources>

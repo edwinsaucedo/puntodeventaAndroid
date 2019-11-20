@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="categories">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="genres">
+        <item>Selecciona:</item>
+        <item>M</item>
+        <item>F</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="module">
+        <item>VTA</item>
+        <item>OC</item>
+    </string-array>
+    <string name="SpDefault">Seleccione una categoría:</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Eliminar"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="abrevFolio">fol.</string>
+    <string name="account_type">com.example.administrador.pvsegalmex"</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="addImage">Agregar Forma de Pago</string>
+    <string name="addPhoto">Agregar foto.</string>
+    <string name="app_name">PUNTO CYTRUSS</string>
+    <string name="askCategory">Debes de tener al menos una categoria registrada ¿Deseas registrar una categoría?</string>
+    <string name="askDepartment">Debes de tener al menos un deparamento registrado. ¿Deseas registrar un nuevo departamento?</string>
+    <string name="askIncompleteSale">¿Está seguro de abandonar la venta?</string>
+    <string name="askItemRepeat"> ¿Desea cambiar la cantidad y/o el precio?</string>
+    <string name="askProvider">Debes de tener al menos un proveedor registrado ¿Deseas registrar un proveedor?</string>
+    <string name="askReceiptMerchandise">El inventario de productos se encuentra vacio, ¿deseas ingresar un recibo de  mercancia? </string>
+    <string name="authority">com.packagename.authority.</string>
+    <string name="btnAddClient">Agregar Cliente</string>
+    <string name="btnAddDepartament">Agregar Departamento</string>
+    <string name="btnAddWayPay">Agregar forma de pago</string>
+    <string name="btnBack">Anterior</string>
+    <string name="btnLoginText">Iniciar Sesión</string>
+    <string name="btnNext">Siguiente</string>
+    <string name="btnPay">Pagar</string>
+    <string name="btnSave">Guardar</string>
+    <string name="btnSaveBasePrice">Guardar precio base</string>
+    <string name="btnSaveWholePirce">Guardar precio mayoreo</string>
+    <string name="btnSearch">Buscar</string>
+    <string name="btnStart">Empezar!</string>
+    <string name="categoryWawning">¡No hay categorías registradas!</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Ve a &lt;b>facebook.com/device&lt;/b> e ingresa el código que se muestra arriba.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Se produjo un error inesperado al descargar una imagen.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">El inicio de sesión de WebView requiere permisos de INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Error de AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Te gusta</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Me gusta</string>
+    <string gender="unknown" name="com_facebook_loading">Cargando...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Entrar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Continuar con Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Iniciar sesión con Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Salir</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Salir</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Sesión iniciada como: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Iniciaste sesión con Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Enviar</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Compartir</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Para conectar tu cuenta, abre la aplicación de Facebook en tu dispositivo móvil y comprueba las notificaciones.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">o</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">¿No eres tú?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Continuar como %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Confirmar inicio de sesión</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Tú decides qué información quieres compartir con las apps.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Habilitar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites Servicios de Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Habilita Servicios de Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Descargar Servicios de Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilidad Servicios de Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Error de Servicios de Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"La aplicación <ns1:g id="APP_NAME">%1$s</ns1:g> tiene problemas con los Servicios de Google Play. Vuelve a intentarlo."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"No es posible ejecutar la aplicación <ns1:g id="APP_NAME">%1$s</ns1:g> sin los Servicios de Google Play, que no son compatibles con tu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no actualices Servicios de Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Actualiza Servicios de Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir en teléfono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string name="contentDescription">Logo</string>
+    <string name="dateCashShortview">Fecha:</string>
+    <string name="delClientWarningMessage">¿Estas seguro de eliminar el cliente?</string>
+    <string name="delClientWarningTitle">¡Adevertencia!</string>
+    <string name="delDepartamentWarningMessage">¿Estás seguro de eliminar el departamento?</string>
+    <string name="delDepartamentWarningTitle">¡Advertencia!</string>
+    <string name="delIncomeWarningMessage">¿Estas seguro de gerenar el ingreso a caja ?</string>
+    <string name="delIncomeWarningTitle">¡Alerta!</string>
+    <string name="delProductSaleWarningMessage">¿Deseas eliminar los productos de la lista?</string>
+    <string name="delProductSaleWarningTitle">¡Advertencia!</string>
+    <string name="delProductWarningMessage">¿Estás seguro de eliminar el producto?</string>
+    <string name="delProductWarningTitle">¡Advertencia!</string>
+    <string name="delProviderWarningMessage">¿Estás seguro de eliminar el proveedor?</string>
+    <string name="delProviderWarningTitle">¡Advertencia!</string>
+    <string name="delTypeDocumentWarningMessage">¿Estás seguro de eliminar el tipo de documento?</string>
+    <string name="delTypeDocumentWarningTitle">¡Alerta!</string>
+    <string name="delWayPayWarningMessage">¿Estás seguro de eliminar la forma de pago?</string>
+    <string name="delWayPayWarningTitle">¡Advertencia!</string>
+    <string name="delWithdrawalWarningMessage">¿Estás seguro de generar el retiro de caja?</string>
+    <string name="delWithdrawalWarningTitle">¡Alerta!</string>
+    <string name="deleteClientSuccess">Cliente eliminado correctamente.</string>
+    <string name="deleteDepartamentSuccess">Departamento eliminado correctamente.</string>
+    <string name="deleteIncomeSuccess">Ingreso generado correctamnete.</string>
+    <string name="deleteProductSuccess">El producto se elimino correctamente.</string>
+    <string name="deleteProviderSuccess">Proveedor eliminado correctamente.</string>
+    <string name="deleteTypeDocumentSuccess">El tipo de documento eliminado correctamente.</string>
+    <string name="deleteWayPaySuccess">Forma de pago eliminada correctamente.</string>
+    <string name="deleteWithdrawalSuccess">Retiro de caja generado correctamente.</string>
+    <string name="departmentWarning">No hay departamentos registrados</string>
+    <string name="dialogAddClient">Agregar cliente</string>
+    <string name="dialogAddNewClient">¿Desea agregar un nuevo cliente?</string>
+    <string name="dialogCancel">Cancelar</string>
+    <string name="dialogCodeProduct"> Código</string>
+    <string name="dialogDescriptionProduct"> Descripción</string>
+    <string name="dialogDiscountProduct">Aplicar descuento</string>
+    <string name="dialogOk">Ok</string>
+    <string name="dialogPriceProduct"> Precio</string>
+    <string name="dialogProduct">Ya existe este producto en su mercancía, ¿desea modificar?</string>
+    <string name="dialogProgressBody">Cargando...</string>
+    <string name="dialogProgressTitle">Porfavor espere</string>
+    <string name="dialogTitleClient">Cliente</string>
+    <string name="dialogTitleEstatus">Estatus:</string>
+    <string name="directionOwner">Dirección: </string>
+    <string name="edtAddress">Dirección.</string>
+    <string name="edtAmountIncome">Monto.</string>
+    <string name="edtAmountWithdrawal">Monto.</string>
+    <string name="edtCashShortAmountCal">Monto calculado</string>
+    <string name="edtCashShortAmountCap">Monto capturado</string>
+    <string name="edtCashShortCambio">Cambio</string>
+    <string name="edtCategory">Categoría.</string>
+    <string name="edtCategoryDepartment">Departamentos</string>
+    <string name="edtCategoryDescription">Descripción</string>
+    <string name="edtClientCurp">CURP.</string>
+    <string name="edtClientName">Cliente.</string>
+    <string name="edtClientPay">Pago cliente</string>
+    <string name="edtCommentsIncome">Comentarios.</string>
+    <string name="edtCommentsWithdrawal">Comentarios.</string>
+    <string name="edtCreditDays">Días de créditos.</string>
+    <string name="edtCreditLimit">Límite de crédito.</string>
+    <string name="edtDateIncome">Fecha.</string>
+    <string name="edtDateWithdrawal">Fecha.</string>
+    <string name="edtDepartamentoDesc">Departamento.</string>
+    <string name="edtGenre">Género.</string>
+    <string name="edtIneString">Cadena de INE.</string>
+    <string name="edtLastName1">Apellido Paterno.</string>
+    <string name="edtLastName2">Apellido Materno.</string>
+    <string name="edtMail">Correo</string>
+    <string name="edtPhone">Teléfono</string>
+    <string name="edtPhotoClient">Foto del cliente.</string>
+    <string name="edtPhotoIne">Foto del INE</string>
+    <string name="edtProductAlternateCode">Código alterno.</string>
+    <string name="edtProductCode">Código.</string>
+    <string name="edtProductCost">Costo</string>
+    <string name="edtProductCostLastPurchase">Costo ultima compra</string>
+    <string name="edtProductDate">Fecha ultima compra</string>
+    <string name="edtProductDescription">Descripción</string>
+    <string name="edtProductFactor">Factor.</string>
+    <string name="edtProductMax">Max.</string>
+    <string name="edtProductMin">Min.</string>
+    <string name="edtProductName">Producto.</string>
+    <string name="edtProductPriceCost">Costo</string>
+    <string name="edtProductPricePercentage">% de  utilidad</string>
+    <string name="edtProductPricePrice">Precio</string>
+    <string name="edtProductPriceQuantity">Cantidad</string>
+    <string name="edtProductReorderPoint">Punto de reorden.</string>
+    <string name="edtProductUnitMeasurement">Unidad Medida.</string>
+    <string name="edtProductUnitMeasurementPurchase">Unidad medida compra.</string>
+    <string name="edtProviderAlias">Alias.</string>
+    <string name="edtProviderComments">Comentarios.</string>
+    <string name="edtProviderCreditDays">Días de crédito.</string>
+    <string name="edtProviderCreditLimit">Límite de credito</string>
+    <string name="edtProviderCurp">CURP.</string>
+    <string name="edtProviderDatePay">Fecha de pago.</string>
+    <string name="edtProviderDiconsa">ERP</string>
+    <string name="edtProviderEmail">Correo electrónico.</string>
+    <string name="edtProviderName">Nombre.</string>
+    <string name="edtProviderPhone">Teléfono.</string>
+    <string name="edtProviderRFC">RFC.</string>
+    <string name="edtProviderStatus">Estatus</string>
+    <string name="edtTypeDocument">Tipo de Documento.</string>
+    <string name="edtTypeDocumentConsecutive">Consecutivo</string>
+    <string name="edtTypeDocumentDescription">Descripción.</string>
+    <string name="edtWayPayDescription">Descripción forma de pago</string>
+    <string name="errorConsulta">Error al consultar base de datos</string>
+    <string name="errorSQLITE">PV Cytruss error en:</string>
+    <string name="errorServidor">Error en el servidor</string>
+    <string name="exitoso">Exitoso</string>
+    <string name="facebook_app_id">441019949889096</string>
+    <string name="fb_login_protocol_scheme">fb441019949889096</string>
+    <string name="fieldRequired">Campo requerido.</string>
+    <string name="folioReceiptMerchandise">Folio</string>
+    <string name="imvImage">Imagen de forma de pago.</string>
+    <string name="imvProduct">Imagen del producto</string>
+    <string name="imvStore">Imagen de la tienda</string>
+    <string name="incompleteSale">Venta incompleta</string>
+    <string name="informationOwner">Información del propietario</string>
+    <string name="itemMenu1">Inicio</string>
+    <string name="itemMenu10">Punto de Venta</string>
+    <string name="itemMenu11">Retiro de Caja</string>
+    <string name="itemMenu12">Cierre de Caja</string>
+    <string name="itemMenu13">Tienda</string>
+    <string name="itemMenu14">Ventas</string>
+    <string name="itemMenu15">Ingresos a Caja</string>
+    <string name="itemMenu16">Recibo de mercancía</string>
+    <string name="itemMenu17">Stock</string>
+    <string name="itemMenu2">Clientes</string>
+    <string name="itemMenu3">Formas de pago</string>
+    <string name="itemMenu4">Departamentos</string>
+    <string name="itemMenu5">Cerrar sesión</string>
+    <string name="itemMenu6">Proveedores</string>
+    <string name="itemMenu7">Categorías</string>
+    <string name="itemMenu8">Productos</string>
+    <string name="itemMenu9">Tipo de Documento</string>
+    <string name="itemRepeat"> El producto esta repetido en la lis lista</string>
+    <string name="lastnameOwner">Apellido: </string>
+    <string name="latitude">Latitud: </string>
+    <string name="loginInvalid">Credenciales invalidas.</string>
+    <string name="longitude">Longitud: </string>
+    <string name="messageErrTitleGlobal">¡Error!</string>
+    <string name="messageSuccTitleGlobal">¡Operación exitosa!</string>
+    <string name="nameOwner">Nombre: </string>
+    <string name="noBorrarRegistro">No se puede eliminar este registro.</string>
+    <string name="noHayRegistros">No hay registros</string>
+    <string name="numberarticlesReceiptMerchandise">No. Articulos:</string>
+    <string name="ocurrioError">Ha ocurrido un error.</string>
+    <string name="options">Opciones: </string>
+    <string name="pageTitle">Cliente</string>
+    <string name="pageTitleFragmentProduct">Información del producto</string>
+    <string name="pageTitleFragmentProductPrice">Precio del producto</string>
+    <string name="pageTitleProduct">Producto</string>
+    <string name="pageTitleSupplier">Proveedores</string>
+    <string name="pageTitleWayPay">Forma de Pago</string>
+    <string name="phoneNumberOwner">Teléfono: </string>
+    <string name="pricesing">$</string>
+    <string name="product">Producto:</string>
+    <string name="proveder">Proveedor:</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="takePhoto">Tomar foto.</string>
+    <string name="titleCashClosing">Últimos cortes de caja</string>
+    <string name="titleDetailSale">Detalle de venta</string>
+    <string name="titleProfileStore">Información de la Tienda</string>
+    <string name="titleTicketToolbar">Ticket</string>
+    <string name="total">Total</string>
+    <string name="tvComplete">Completo</string>
+    <string name="tvDirectionStore">Dirección:</string>
+    <string name="tvDiscountDetailSale">Descuento</string>
+    <string name="tvExist">Existencia.</string>
+    <string name="tvIVADetailSale">IVA</string>
+    <string name="tvLatitudeStore">Latitud:</string>
+    <string name="tvLongitudeStore">Longitud</string>
+    <string name="tvNameOwner">Propietario:</string>
+    <string name="tvOcurrioUnError">Ocurrio un error al consultar tienda</string>
+    <string name="tvPayDetailSale">Pago</string>
+    <string name="tvPhoneStore">Teléfono:</string>
+    <string name="tvProduct">Producto</string>
+    <string name="tvSaleCompleted">Venta completada</string>
+    <string name="tvStoreName">Tienda:</string>
+    <string name="tvSubtotalDetailSale">Subtotal</string>
+    <string name="tvTotalAmount">Total de ventas</string>
+    <string name="tvUtility">% Utilitidad</string>
+    <string name="tv_basePrice">Nivel Precio Base</string>
+    <string name="tv_priceWholesale">Nivel Precio Mayoreo</string>
+    <string name="tvnumbersale">Numero de ventas</string>
+    <string name="txtTypeDocumentModel">Modelo</string>
+    <string name="txvItem">Artículo</string>
+    <string name="txvItems">Items</string>
+    <string name="txvPesos">$</string>
+    <string name="txvProductCategory">Categoría</string>
+    <string name="txvProductDiconsa">ERP.</string>
+    <string name="txvProductGranel">Granel.</string>
+    <string name="txvProductPriceLevel">Nivel</string>
+    <string name="txvProductService">Servicio</string>
+    <string name="txvSaleUtility">Utilidad por venta </string>
+    <string name="txvSelectedWayPay">Seleccione una forma de pago:</string>
+    <string name="txvUnitPrice">P.U</string>
+    <string name="txvUtility">Utilidad </string>
+    <string name="txvrecibo">Interno</string>
+    <string name="ubication">Ubicación: </string>
+    <string name="userNick">Usuario:</string>
+    <string name="userPassword">Contraseña:</string>
+    <string name="userPasswordError">el usuario o contraseña son incorrectas</string>
+    <string name="warningIncompleteSale">La venta no ha sido completada</string>
+    <string name="warningReceipMerchandise">El inventario de productos se encuentra vacio</string>
+    <string name="zeroNumber">0.00</string>
+</resources>

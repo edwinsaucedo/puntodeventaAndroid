@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrador.pvsegalmex.view.MyDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerCart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.PointOfSaleView">
+
+    <LinearLayout
+        android:id="@+id/rlPoint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dip_10"
+                    android:weightSum="100">
+
+                    <android.support.v7.widget.SearchView
+                        android:id="@+id/simpleSearchView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:outlineAmbientShadowColor="@color/white"
+                        android:searchHintIcon="@color/white" />
+
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnViewGrid"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical|center_horizontal"
+                        android:layout_marginEnd="@dimen/dip_10"
+                        android:layout_weight="15"
+                        android:src="@drawable/grid"
+                        app:backgroundTint="@color/orangePantone"
+                        app:fabSize="mini" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnViewList"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical|center_horizontal"
+                        android:layout_marginEnd="@dimen/dip_10"
+                        android:layout_weight="15"
+                        android:src="@drawable/list"
+                        app:backgroundTint="@color/orangePantone"
+                        app:fabSize="mini" />
+
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnDeleteSale"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="15"
+                        android:layout_marginEnd="@dimen/dip_10"
+
+                        android:src="@drawable/delete"
+                        app:backgroundTint="@color/orangePantone"
+                        app:fabSize="mini" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnCarSale"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="15"
+                        android:src="@drawable/car"
+                        app:backgroundTint="@color/orangePantone"
+                        app:fabSize="mini"
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dip_10"
+                android:weightSum="100">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dip_10"
+                    android:layout_weight="100"
+                    android:inputType="textMultiLine">
+
+                    <EditText
+                        android:id="@+id/edtProductCodeSale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/edtProductName"
+                        android:inputType="number" />
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dip_5"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/dip_10">
+
+                <GridView
+                    android:id="@+id/gridProducts"
+                    android:numColumns="auto_fit"
+                    android:columnWidth="@dimen/dip_160"
+                    android:verticalSpacing="@dimen/dip_6"
+                    android:horizontalSpacing="@dimen/dip_6"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:scrollbars="vertical" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/gridProducts">
+
+                <LinearLayout
+                    android:id="@+id/rl_SeeCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_55"
+                    android:background="@drawable/degradado_buttons_gray">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignStart="@+id/rl_SeeCart"
+                        android:layout_weight="100"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:paddingLeft="@dimen/dip_15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="20"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginLeft="@dimen/dip_35"
+                                android:id="@+id/Art"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txvItem"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/dip_13" />
+
+                            <TextView
+                                android:layout_marginLeft="@dimen/dip_35"
+                                android:id="@+id/tvNproducts"
+                                android:textSize="@dimen/dip_13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dip_6"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="25"
+                            android:orientation="vertical">
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:id="@+id/animation"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:lottie_fileName="cart.json"
+                                app:lottie_imageAssetsFolder="assets"
+                                app:lottie_loop="false" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="25"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginLeft="@dimen/dip_35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Total"
+                                android:textSize="@dimen/dip_13"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_marginLeft="@dimen/dip_35"
+                                android:id="@+id/txvTotal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dip_6"
+                                android:text="$0.00"
+                                android:textSize="@dimen/dip_13"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:padding="@dimen/dip_6"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dip_5"
+                    android:src="@drawable/arrow_sale" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/dip_240"
+        android:layout_height="match_parent"
+        android:layout_gravity="end">
+
+        <include layout="@layout/nav_drawer_cart" />
+    </RelativeLayout>
+
+
+</com.example.administrador.pvsegalmex.view.MyDrawerLayout>
+
+

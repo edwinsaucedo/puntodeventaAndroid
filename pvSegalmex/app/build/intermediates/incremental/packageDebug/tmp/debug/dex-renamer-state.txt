@@ -1,0 +1,10 @@
+#Tue Nov 19 17:30:16 CST 2019
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Users\\sistemas11\\Downloads\\pvSegalmex-20191119T160642Z-001\\pvSegalmex\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=C\:\\Users\\sistemas11\\Downloads\\pvSegalmex-20191119T160642Z-001\\pvSegalmex\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.0=C\:\\Users\\sistemas11\\Downloads\\pvSegalmex-20191119T160642Z-001\\pvSegalmex\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

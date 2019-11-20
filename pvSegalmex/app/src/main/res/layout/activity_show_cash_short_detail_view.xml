@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/idLinearShowCashShort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dip_60"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:paddingLeft="@dimen/dip_2"
+                android:text="@string/userNick" />
+
+            <TextView
+                android:id="@+id/showCashShortUser"
+                android:layout_width="0dp"
+                android:paddingLeft="@dimen/dip_2"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:paddingLeft="@dimen/dip_2"
+                android:text="@string/dateCashShortview" />
+
+            <TextView
+                android:id="@+id/showCashShortDate"
+                android:layout_width="0dp"
+                android:paddingLeft="@dimen/dip_2"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvCashShortWayPay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dip_95"
+        android:background="@color/white"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

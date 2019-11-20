@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dip_65"
+    android:layout_marginBottom="@dimen/dip_15"
+    android:padding="@dimen/dip_5"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dip_1"
+    app:cardElevation="@dimen/dip_3"
+    app:cardPreventCornerOverlap="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvProductSaleCant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/dip_5"
+            android:layout_marginEnd="@dimen/dip_5"
+            android:text="1"
+            android:textSize="@dimen/dip_13" />
+
+        <TextView
+            android:id="@+id/tvbtvProductSaleDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dip_2"
+            android:layout_marginStart="@dimen/dip_1"
+            android:layout_marginTop="@dimen/dip_17"
+            android:textStyle="bold"
+            android:textSize="@dimen/dip_10"
+            android:textColor="@color/black"
+            android:text="CocaCola 600ml" />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:layout_marginTop="@dimen/dip_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/dip_30"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvProductSaleCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" $15.00"
+                android:textSize="@dimen/dip_10"/>
+
+            <TextView
+                android:id="@+id/tvProductSaleCostQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text=" $15.00"
+                android:textSize="@dimen/dip_13"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:padding="@dimen/dip_10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dip_10"
+        tools:context=".view.CrudProductView">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dip_10"
+            app:cardCornerRadius="@dimen/dip_7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="97"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:background="@color/white"
+                            android:layout_marginTop="@dimen/dip_5"
+                            android:padding="@dimen/dip_10"
+                            >
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/rvWayPayInwithdrawal"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dip_300"
+                                android:background="@color/white"
+                                android:scrollbars="vertical"
+
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dip_5">
+
+                    <EditText
+                        android:id="@+id/edtCommentsWithdrawal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top|left"
+                        android:hint="@string/edtProviderComments"
+                        android:textSize="@dimen/dip_13"
+                        android:inputType="textMultiLine"
+                        android:lines="5"
+                        android:fontFamily="@font/segoeui"
+                        android:minLines="5"
+                        android:overScrollMode="always"
+                        android:padding="10dp"
+                        android:scrollbarStyle="insideInset"
+                        android:scrollbars="vertical"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_2"
+                    android:background="@color/windowBackground" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnSaveWithdrawal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_40"
+            android:fontFamily="@font/segoeui"
+            android:layout_marginTop="@dimen/dip_10"
+            android:layout_marginBottom="@dimen/dip_10"
+            android:textSize="@dimen/dip_15"
+            android:background="@drawable/degradado_buttons"
+            android:text="@string/btnSave"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</ScrollView>

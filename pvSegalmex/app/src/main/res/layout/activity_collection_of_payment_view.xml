@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".view.PointOfSaleView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_90"
+                android:layout_weight="100"
+                android:background="@color/orangePantone"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/tvTotalSalesView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="100"
+                    android:fontFamily="@font/segoeui"
+                    android:gravity="center"
+                    android:text="Total"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dip_40" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dip_20"
+                app:cardPreventCornerOverlap="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="100"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTotalSales"
+                        android:layout_width="@dimen/dip_100"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dip_10"
+                        android:fontFamily="@font/segoeui"
+                        android:gravity="center"
+                        android:text="$12.25"
+                        android:textSize="@dimen/dip_30"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dip_155"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dip_20"
+                    app:cardPreventCornerOverlap="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="100"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="85">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="end"
+                                android:textSize="@dimen/dip_13"
+                                android:paddingTop="@dimen/dip_10"
+                                android:paddingRight="@dimen/dip_25"
+                                android:text="@string/dialogAddClient" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="15">
+
+                            <android.support.design.widget.FloatingActionButton
+                                android:id="@+id/btnAddClientSale"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:src="@drawable/addclient"
+                                app:backgroundTint="@color/blueicons"
+                                app:fabSize="mini" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="70dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingLeft="@dimen/dip_6"
+                            android:textSize="@dimen/dip_15"
+                            android:text="@string/edtClientName"
+                            android:textColor="@color/bluePantone" />
+
+                        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                            android:id="@+id/spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dip_10"
+                    app:cardPreventCornerOverlap="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txvSelectedWayPay"
+                            android:textSize="@dimen/dip_15" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/gridWayPaySales"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dip_200"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/dip_10"
+                            android:layout_marginTop="@dimen/dip_5"
+                            android:background="@color/white"
+                            android:scrollbars="horizontal" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/rl_QuickCash"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_210"
+                    android:layout_alignBottom="@+id/cardButton"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/viewEdtCostCap"
+                        android:layout_width="@dimen/dip_300"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/sp_25"
+                        android:layout_marginEnd="@dimen/dip_10"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/edtCapturatedCash"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dip_20"
+                            android:drawableEnd="@drawable/cost"
+                            android:focusable="true"
+                            android:textSize="@dimen/dip_13"
+
+                            android:fontFamily="@font/segoeui"
+                            android:hint="@string/edtCashShortAmountCap"
+                            android:inputType="numberDecimal"
+                            android:selectAllOnFocus="true" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/viewEdtDiference"
+                        android:layout_width="@dimen/dip_300"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/viewEdtCostCap"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/dip_10"
+                        android:enabled="false"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/edtDiferenceCash"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/pricereduction"
+                            android:fontFamily="@font/segoeui"
+                            android:hint="@string/edtCashShortCambio"
+                            android:textSize="@dimen/dip_13"
+
+                            android:inputType="text"
+
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btnCompleteSale"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_50"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/dip_10"
+                    android:background="@drawable/degradado_buttons"
+                    android:fontFamily="@font/segoeui"
+                    android:padding="@dimen/dip_10"
+                    android:text="@string/tvSaleCompleted"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dip_15" />
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+</ScrollView>
+
